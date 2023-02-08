@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800&display=swap');
+
+html {
+    background-image: url('../img/1639651273_114-catherineasquithgallery-com-p-fon-akvarel-rozovii-pastelnii-kremovii-178.jpg');
+    margin-top: 1%;
+    background-size: cover;
+      }
+
+.header {
+    background-image: url('../img/adb360e6d6a8def356e2e7948262db2d.jpg');
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    width:100%;
+    height: 100px;
+    }
+
+.main {
+    background-image: url('../img/1639675367_29-catherineasquithgallery-com-p-rozovii-nyashnii-fon-66.jpg');
+    margin-top: 1%;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    width:100%;
+    height: 500px;
+    }
+div, img {
+    border-radius: 20px;
+    }
+
+.photo {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+    }
+
+.FIO, .gorod {
+    margin: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex: 1;
+    height: 400px;
+    text-align: center;
+    }
+
+.FIO a,.gorod a {
+    text-align: center;
+    font-size:100px;
+    font-family: Nunito;
+    color: white;
+}
+
+.gorod p {
+    text-align: center;
+    font-size:40px;
+    font-family: Nunito;
+    color: white;
+}
+
+.FIO p, td {
+    font-family: Nunito;
+    color: white;}
+
+.header a, caption   {
+    -webkit-text-stroke:0.5px grey;
+    font-size:32px;
+    margin: auto;
+    font-family: Nunito;
+    color: white;
+    font-weight: bolder;
+    }
+
+img, td {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    }
+
+table {
+text-align:center;
+width:100%;
+height:100%;}
+
+.class {
+width: 100%;
+height:100%;
+}
+
+td {font-size:25px;}
+
+ol, ul {
+width:100%;
+height:100%;
+font-size: 50px;
+    font-family: Nunito;
+    color: white;
+    font-weight: bolder;}
+.left{margin-left:195px;
+margin-top:95px;}
+.right{margin-right:195px;
+margin-top:95px;}
+.stass {text-align:left;}
